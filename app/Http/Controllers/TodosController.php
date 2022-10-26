@@ -26,4 +26,9 @@ class TodosController extends Controller
         // redirigiendo al usuaro a la ruta todos con succes
         return redirect()->route('todos')->with('success','Tarea creada correctamente');
     }
+
+    public function index(){
+        $todos = TOdo::all();
+        return view('todos.index', ['todos'=> $todos]);
+    }
 }
