@@ -45,5 +45,4 @@
         </div>
       </nav>
 </body>
-<footer><h1>Probando la rama develop</h1></footer>
 </html>
